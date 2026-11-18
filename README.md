@@ -123,7 +123,7 @@ With a deep interest in **offensive security**, **web application pentesting**, 
 </td>
 <td width="45%" valign="middle" align="center">
 
-<img src="https://raw.githubusercontent.com/hamzahethical/hamzahethical/main/cyber.png" width="380px" alt="Cyber Visual" />
+<img src="https://raw.githubusercontent.com/hamzahethical/hamzahethical/main/terminal.svg?v=1.0" width="380px" alt="Cyber Visual" />
 
 </td>
 </tr>
