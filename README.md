@@ -110,7 +110,7 @@ With a deep interest in **offensive security**, **web application pentesting**, 
 <tr>
 <td width="55%" valign="top">
 
-<img src="https://github-readme-stats.vercel.app/api?username=hamzahethical&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="GitHub Stats" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api?username=hamzahethical&theme=github_dark&hide_border=false&include_all_commits=true&show_icons=true&cache_seconds=1800" alt="GitHub Stats" width="100%" />
 
 <br/>
 
@@ -118,7 +118,7 @@ With a deep interest in **offensive security**, **web application pentesting**, 
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamzahethical&theme=github_dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hamzahethical&theme=github_dark&hide_border=false&include_all_commits=true&layout=compact&cache_seconds=1800" alt="Top Languages" width="100%" />
 
 </td>
 <td width="45%" valign="middle" align="center">
