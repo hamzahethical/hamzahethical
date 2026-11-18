@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" width="440" height="330">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1017"/>
+      <stop offset="100%" stop-color="#05080c"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes line1 { 0%, 100% { opacity: 0; } 5%, 92% { opacity: 1; } }
+    @keyframes line2 { 0%, 12% { opacity: 0; } 16%, 92% { opacity: 1; } }
+    @keyframes line3 { 0%, 23% { opacity: 0; } 27%, 92% { opacity: 1; } }
+    @keyframes line4 { 0%, 35% { opacity: 0; } 39%, 92% { opacity: 1; } }
+    @keyframes line5 { 0%, 48% { opacity: 0; } 52%, 92% { opacity: 1; } }
+    @keyframes line6 { 0%, 61% { opacity: 0; } 65%, 92% { opacity: 1; } }
+    @keyframes line7 { 0%, 73% { opacity: 0; } 77%, 92% { opacity: 1; } }
+    @keyframes line8 { 0%, 84% { opacity: 0; } 87%, 92% { opacity: 1; } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    @keyframes scanline { 0% { transform: translateY(0); } 100% { transform: translateY(330px); } }
+
+    .term-text {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      font-size: 11.5px;
+      letter-spacing: 0.3px;
+    }
+    .l1 { animation: line1 11s infinite ease-in-out; }
+    .l2 { animation: line2 11s infinite ease-in-out; }
+    .l3 { animation: line3 11s infinite ease-in-out; }
+    .l4 { animation: line4 11s infinite ease-in-out; }
+    .l5 { animation: line5 11s infinite ease-in-out; }
+    .l6 { animation: line6 11s infinite ease-in-out; }
+    .l7 { animation: line7 11s infinite ease-in-out; }
+    .l8 { animation: line8 11s infinite ease-in-out; }
+    .cursor { animation: blink 0.8s infinite; }
+  </style>
+
+  <!-- Window Container -->
+  <rect x="1" y="1" width="438" height="328" rx="8" fill="url(#bg-grad)" stroke="#1a3322" stroke-width="1.5"/>
+  
+  <!-- Window Header -->
+  <rect x="1" y="1" width="438" height="32" rx="8" fill="#0f1620"/>
+  <rect x="1" y="24" width="438" height="9" fill="#0f1620"/>
+  <line x1="1" y1="33" x2="439" y2="33" stroke="#1c2633" stroke-width="1"/>
+
+  <!-- Window Controls -->
+  <circle cx="18" cy="17" r="5" fill="#ff5f56"/>
+  <circle cx="34" cy="17" r="5" fill="#ffbd2e"/>
+  <circle cx="50" cy="17" r="5" fill="#27c93f"/>
+
+  <!-- Title -->
+  <text x="220" y="21" fill="#7d8590" font-family="'Fira Code', monospace" font-size="11" text-anchor="middle" font-weight="600">
+    hamzah@kali-linux: ~/exploit-framework
+  </text>
+
+  <!-- Terminal Content Area -->
+  <g class="term-text" transform="translate(18, 58)">
+    
+    <!-- Line 1: Command -->
+    <g class="l1" transform="translate(0, 0)">
+      <text fill="#00ff88" font-weight="bold">hamzah@kali</text>
+      <text fill="#7d8590" x="80">:~$</text>
+      <text fill="#ffffff" x="105">./recon_x.py -t corp.target</text>
+    </g>
+
+    <!-- Line 2: Stealth sweep -->
+    <g class="l2" transform="translate(0, 24)">
+      <text fill="#00d4ff">[*] Initializing stealth DNS &amp; port sweep...</text>
+    </g>
+
+    <!-- Line 3: Open ports -->
+    <g class="l3" transform="translate(0, 48)">
+      <text fill="#00ff88">[+] Found 3 live ports: </text>
+      <text fill="#ffd700" x="158">22</text>
+      <text fill="#7d8590" x="175">(SSH)</text>
+      <text fill="#ffd700" x="215">80</text>
+      <text fill="#7d8590" x="232">(HTTP)</text>
+      <text fill="#ffd700" x="278">443</text>
+      <text fill="#7d8590" x="302">(SSL)</text>
+    </g>
+
+    <!-- Line 4: WAF Analysis -->
+    <g class="l4" transform="translate(0, 72)">
+      <text fill="#00d4ff">[*] Analyzing HTTP response headers...</text>
+    </g>
+
+    <!-- Line 5: Vulnerability detected -->
+    <g class="l5" transform="translate(0, 96)">
+      <text fill="#ffcc00">[!] ALERT: Missing CSP &amp; HSTS security</text>
+    </g>
+
+    <!-- Line 6: Subdomain Takeover Found -->
+    <g class="l6" transform="translate(0, 120)">
+      <text fill="#ff4444" font-weight="bold">[!] CRITICAL: Subdomain takeover on dev.*</text>
+    </g>
+
+    <!-- Line 7: Exploit Payload -->
+    <g class="l7" transform="translate(0, 144)">
+      <text fill="#00ff88">[+] PoC verified: 200 OK — Takeover confirmed</text>
+    </g>
+
+    <!-- Line 8: Success & Shell -->
+    <g class="l8" transform="translate(0, 172)">
+      <rect x="-4" y="-12" width="395" height="20" fill="rgba(0,255,136,0.08)" rx="4"/>
+      <text fill="#00ff88" font-weight="bold" filter="url(#glow)">[✓] EXPLOITATION REPORT GENERATED (A+)</text>
+    </g>
+
+    <!-- Line 9: Live Shell prompt with blinking cursor -->
+    <g class="l8" transform="translate(0, 206)">
+      <text fill="#00d4ff" font-weight="bold">root@corp-srv</text>
+      <text fill="#7d8590" x="92">:#</text>
+      <text fill="#ffffff" x="115">whoami &amp;&amp; id</text>
+    </g>
+
+    <g class="l8" transform="translate(0, 228)">
+      <text fill="#00ff88">uid=0(root) gid=0(root) groups=0(root)</text>
+      <rect x="260" y="-11" width="7" height="13" fill="#00ff88" class="cursor"/>
+    </g>
+
+  </g>
+
+</svg>
