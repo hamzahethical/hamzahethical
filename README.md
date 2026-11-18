@@ -105,6 +105,22 @@ With a deep interest in **offensive security**, **web application pentesting**, 
 ![VMware](https://img.shields.io/badge/VMware-607078?style=plastic&logo=vmware&logoColor=white) 
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=plastic&logo=VScode&logoColor=white)
 
+
+<div align="center">
+
+### 🚀 Live Security Applications:
+<p align="center">
+  <a href="https://hamzahethical.github.io/GhostTrace" target="_blank">
+    <img src="https://img.shields.io/badge/👁️%20LAUNCH%20GHOSTTRACE-ADVANCED%20OSINT%20RADAR-00ff88?style=for-the-badge&logoColor=black" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://hamzahethical.github.io/CyberDash" target="_blank">
+    <img src="https://img.shields.io/badge/⚔️%20LAUNCH%20CYBERDASH-HACKER%20TOOLKIT-00e5ff?style=for-the-badge&logoColor=black" />
+  </a>
+</p>
+
+</div>
+
 # 📊 GitHub Stats:
 <table border="0" style="border-collapse: collapse;">
 <tr>
