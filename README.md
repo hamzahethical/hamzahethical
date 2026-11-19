@@ -156,11 +156,16 @@ print(me.get_mindset())
 
 ---
 
-## 🏆 Trophies
+## 🏆 Achievements
 
 <div align="center">
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=hamzahethical&theme=matrix&no-frame=true&no-bg=true&margin-w=6&column=7)](https://github.com/hamzahethical)
+![Repos](https://img.shields.io/badge/Public_Repos-10+-00ff41?style=for-the-badge&logo=github&logoColor=white)
+![Tools](https://img.shields.io/badge/Security_Tools_Built-6-00ff41?style=for-the-badge&logo=hackthebox&logoColor=white)
+![Bug Bounty](https://img.shields.io/badge/Bug_Bounty-Active-ff6600?style=for-the-badge&logo=hackerone&logoColor=white)
+![THM](https://img.shields.io/badge/TryHackMe-Learning-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
+![HTB](https://img.shields.io/badge/HackTheBox-Active-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
+![PWA](https://img.shields.io/badge/Web_Academy-Training-FF6633?style=for-the-badge&logo=portswigger&logoColor=white)
 
 </div>
 
